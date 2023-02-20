@@ -1,0 +1,364 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f10;
+    color: #ffffff;
+}
+body
+{
+    margin :0 15vw;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.logo-image
+{
+    margin-left: 10px;
+    width:25px;
+    height:25px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0;
+}
+nav ul {
+    display: flex;
+}
+nav ul li
+{   
+    margin-right: 40px;
+}
+nav ul li a{
+    font-weight: 700;
+    font-size: 15px;
+}
+.nav-headings
+{
+    display: flex;
+    align-items: center;
+}
+.nav-headings button
+{
+    background: #434242;
+  border-radius: 9px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 41px;
+  cursor: pointer;
+    
+}
+/* main */
+.main
+{
+    height:80vh;
+}
+.main-image
+{ 
+    position: relative;
+   left: 70px;
+    width: 230px;
+   top: -250px;
+}
+.right-main
+{  
+    width: 50%;
+    position: relative;
+    top: -500px;
+    left: 395px;
+    text-align:left;
+    margin-left: 60px;
+    line-height: 25px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+.right-main img,h1,h4{
+    margin-bottom: 25px;
+}
+.shopping-bag-section
+{
+    display: flex;
+    align-items: center;
+    gap:19px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.shopping-bag-section img {
+    width: 18px;
+    padding-top: 14px;
+}
+  .shopping-bag-section span, p,img{
+    background-color: transparent;
+  }
+  .social-media-section
+  {
+    position: relative;
+    top:-410px; 
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 0 50px;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+  }
+/* specs */
+.specification-logo
+{  
+    position: relative;
+    scale: 0.8;
+    padding-left:40%;
+    padding-right: 40%;
+    margin-top: 80px;
+}
+.specs
+{ 
+    display: flex;
+   align-items: center;
+   padding-top:20px;
+   margin-top:30px;
+   margin-bottom: 130px;
+}
+.specification-list 
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.battery
+{
+    float: right;
+    position: relative;
+    left: 280px;
+    margin-bottom: 2rem;
+}
+.connection
+{
+    position: relative;
+    left: 250px;
+    margin-bottom: 2rem;
+}
+.charger
+{
+    position: relative;
+    left: 250px;
+    margin-bottom: 2rem;
+}
+.mic 
+{
+    position: relative;
+    left: 280px;
+}
+.spec-head
+{
+    width:50%;
+    margin-right:20%;
+    margin-left:40%;
+    scale: 0.9;
+}
+/* --------------------------------- */
+.case-logo
+{
+    position: relative;
+    scale: 0.9;
+    padding-left:40%;
+    padding-right: 40%;
+    margin-top: 80px;
+}
+.case 
+{
+    display: flex;
+   align-items: center;
+   padding-top:20px;
+   margin-top:30px;
+   margin-bottom: 30px;
+}
+.case-left
+{  
+    margin-left:20%;
+    width:50%;
+}
+.case-right
+{
+   text-align: left;
+   margin-right:30% ;
+}
+
+.more-info
+{
+    display: flex;
+    align-items: center;
+    gap:19px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width:fit-content;
+    padding: 10px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.more-info img{
+    padding-top: 16px;
+    margin-right:5px;
+    width: 17px;
+}
+/* ---------------------*/
+.buy-now
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    background-color: #434242;
+    margin-bottom:50px;
+}
+.left-buy-now
+{
+    padding-left:20%;
+    background: transparent;
+    background-color: #434242;
+    
+}
+.left-buy-now p,h3
+{
+    background: transparent;
+    background-color: #434242;
+    font-size: 18px;
+}
+.buy-now-icon
+{
+    display: flex;
+    align-items: center;
+    gap:19px;
+    background: transparent;
+    background-color:black;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.buy-now-icon p{
+    background: transparent;
+    background-color:black;
+}
+.right-buy-now
+{
+    background: transparent;
+    background-color: #434242;
+}
+/* ---------------------- */
+.chooseYourStyle
+{  
+    position: relative;
+    scale: 0.8;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom:30px;
+    text-align: center;
+}
+.style-container
+{   
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    text-align: center;
+    column-gap:1px;
+}
+.black  ,.red-black  ,.night-black  ,.twilightGray ,.blue 
+{   
+    scale:0.7;
+    background: transparent;
+    background-color: #434242;
+    width: 300px;
+    height:280px;
+    border-radius: 8px;
+    margin-left:10%;
+    margin-bottom:50px ;
+}
+.black img.headphon  ,.red-black img.headphon  ,.night-black img.headphon  ,.twilightGray img.headphon ,.blue img.headphon
+{
+  position: relative;
+  top:-110px;
+}
+.black p,span,.red-black p ,.night-black p,.twilightGray p ,.blue p
+{  
+    position: relative;
+    margin-top:-106px;
+    margin-bottom: 20px;
+    background: transparent;
+    background-color: #434242;
+    font-size: 20px;
+    font-weight:700;
+}
+.shopping-icon
+{   
+    
+    position: relative;
+    top:-60px;
+    left:230px;
+    background: transparent;
+    background-color: #0f0f10;
+    width:40px;
+    scale:1.2;
+    margin:2px;
+    padding:3px;
+    margin-right:40px;
+    border-radius:5px;
+    cursor: pointer;
+}
+/* ------------------- */
+ footer
+ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:90px;
+ }
+ .footer-sbscription
+ { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+.subscribe-button
+{  
+    scale: 0.9;
+    position: relative;
+    padding: 4px 2px;
+    gap:5px;
+    text-align: center;
+    left:170px;
+    top:-40px;
+    display: flex;
+   margin-top: 10px;
+   width: 110px;
+   height: 32px;
+   border-radius: 8px;
+   background-color: #434242;
+   cursor: pointer;
+}
+.subscribe-button img{
+   
+    scale: 0.7;
+}
+.icons-socialmedia .icn
+{
+    cursor: pointer;
+}
